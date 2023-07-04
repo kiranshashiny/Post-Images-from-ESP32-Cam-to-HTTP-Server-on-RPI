@@ -10,6 +10,11 @@ Raspberry pi with php, apache, mysql and other apps installed.
 
 The blog I followed was  https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/
 
+Pinout of ESP32 Webcam
+
+![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/c1617d9c-db0d-49ca-9b59-ab1374e0c66a)
+
+
 The architecture is as shown.
 
 ![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/884036fd-053a-485b-b1d6-f8fefbf57633)
