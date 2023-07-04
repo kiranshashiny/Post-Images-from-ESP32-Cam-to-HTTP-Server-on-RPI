@@ -1,5 +1,21 @@
 # Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI
 
+This takes photos every 30 seconds and posts it to Raspberry pi inhouse, 192.168.29.xx
+
+On the laptop in the inhouse network - go to http://192.168.29.xx/gallery.php and view the photos.
+
+Requirements :
+
+Raspberry pi with php, apache, mysql and other apps installed.
+
+The blog I followed was  https://randomnerdtutorials.com/esp32-cam-post-image-photo-server/
+
+The architecture is as shown.
+
+![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/884036fd-053a-485b-b1d6-f8fefbf57633)
+
+
+There are 2 versions of upload.php, one uses the http protocol and other uses the https, Here i have used the HTTP protocol to upload from ESP32
 
 
 ![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/71c24ab4-59fe-4873-8f22-4e63f726fd46)
@@ -209,5 +225,11 @@ String sendPhoto() {
   }
   return getBody;
 }
+
+
+The output:
+
+![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/d4eeaa8b-9e9e-493c-91ef-1aac9567da6a)
+
 
 ```
