@@ -227,9 +227,9 @@ String sendPhoto() {
 }
 
 
+
+```
+
 The output:
 
 ![image](https://github.com/kiranshashiny/Post-Images-from-ESP32-Cam-to-HTTP-Server-on-RPI/assets/14288989/d4eeaa8b-9e9e-493c-91ef-1aac9567da6a)
-
-
-```
